@@ -6,6 +6,7 @@ from time import sleep
 
 def dismiss_sign_in_modal(driver):
     """Dismisses the LinkedIn sign-in modal if it appears."""
+    sleep(10)
     try:
         dismiss_button = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, ".modal__dismiss"))

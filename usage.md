@@ -2,7 +2,7 @@
 
 ## Step 1: Setup ChromeDriver
 
-1. Download the ChromeDriver that matches your Chrome browser version from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+1. Download the ChromeDriver that matches your Chrome browser version.
 2. Place the `chromedriver` executable in your PATH or in the root directory of the project.
 3. Install the required dependencies using the following command:
 

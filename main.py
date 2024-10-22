@@ -10,7 +10,7 @@ def main():
     dismiss_sign_in_modal(driver)
 
     jobs = []
-    max_jobs = 500
+    max_jobs = 50
     scroll_pause_time = 2
 
     while len(jobs) < max_jobs:
