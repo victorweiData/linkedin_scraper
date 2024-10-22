@@ -1,0 +1,28 @@
+Usage
+
+Step 1: Setup ChromeDriver
+
+	1.	Download the ChromeDriver that matches your Chrome browser version from here.
+	2.	Place the chromedriver executable in your PATH or in the root directory of the project.
+  3.  Run the requirement.txt
+
+Step 2: Run the Scraper
+
+To run the scraper, use the following command:
+
+python main.py
+
+Step 3: Modify Scraping Parameters
+
+You can modify the maximum number of jobs to scrape by editing the max_jobs variable in the main() function inside main.py:
+
+max_jobs = 500  # Adjust the number of jobs you want to scrape
+
+Step 4: Customizing the Code
+
+If you want to customize or extend the scraping functionality, the code is organized into modular functions located in the scraper/ directory. Feel free to modify the individual files for navigation, job extraction, or output customization.
+
+Notes
+
+	•	LinkedIn might block excessive scraping activity, so it’s advised to add reasonable pauses between requests.
+	•	Ensure that you comply with LinkedIn’s Terms of Service when using this scraper.
