@@ -23,4 +23,10 @@ Before running the scraper, make sure you have the following installed:
 You can install the necessary Python dependencies using `pip`:
 
 ```bash
-pip install selenium beautifulsoup4
+pip install -r requirements.txt
+```
+
+## Note
+
+Go into incognito mode without signing in on linkedin, type you the job you want, and filther it.
+Then copy the link and paste it main.py, driver.get().
