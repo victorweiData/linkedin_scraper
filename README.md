@@ -28,5 +28,4 @@ pip install -r requirements.txt
 
 ## Note
 
-Go into incognito mode without signing in on linkedin, type you the job you want, and filther it.
-Then copy the link and paste it main.py, driver.get().
+Go into incognito mode without signing in on linkedin, type in the job, and the filther you want. Then copy the link and paste it main.py, driver.get().
